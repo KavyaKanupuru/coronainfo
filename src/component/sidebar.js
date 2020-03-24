@@ -14,5 +14,6 @@ export default class Sidebar extends Component {
                    covid19-map
            </a>
        </div>
+
   );}
 }
