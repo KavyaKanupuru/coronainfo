@@ -1,19 +1,20 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './component/sidebar'
+import Infographics from './component/infographics'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          "Work in progress ......"
+          Covid-19 Information Page
         </p>
       </header>
-      <body>
+      <div>
       <Sidebar></Sidebar>
-       <p> Have to do more here </p>
-      </body>
+      <Infographics> </Infographics>
+      </div>
     </div>
 
   );
